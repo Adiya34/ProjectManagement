@@ -17,8 +17,7 @@ CREATE TABLE Patient (
 	Sex nchar(2) NOT NULL,
 	Job NVARCHAR(25),
 	Education NVARCHAR(25),
-	EMD NCHAR(9),
-	Cause NVARCHAR(50)
+	EMD NCHAR(9)	
 );
 
 CREATE TABLE PatientTreatment (
@@ -30,6 +29,7 @@ CREATE TABLE PatientTreatment (
 	Treatment NVARCHAR(255) NOT NULL,
 	Repetition TINYINT ,
 	Note NVARCHAR(255),
+	Cause NVARCHAR(50),
 	FOREIGN KEY (Register) REFERENCES Patient(Register)
 );
 
