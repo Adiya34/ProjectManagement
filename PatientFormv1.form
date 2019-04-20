@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroupSex">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="286" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Component id="jLabelBranch" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelLevel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="Ins" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Level" min="-2" max="-2" attributes="0"/>
+                          <Component id="Branch" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Canc" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabelFirstName" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelAge" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabelLastName" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="FirstName" alignment="1" min="-2" pref="76" max="-2" attributes="0"/>
+                                              <Component id="LastName" alignment="1" min="-2" pref="76" max="-2" attributes="0"/>
+                                              <Component id="Age" alignment="1" min="-2" pref="76" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jLabelSex" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="RadioMale" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="RadioFemale" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="jLabelPhone" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace pref="42" max="32767" attributes="0"/>
+                                              <Component id="Phone" min="-2" pref="76" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabelRegister" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="Register" min="-2" pref="78" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelMail" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="EMail" min="-2" pref="97" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelEMD" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="EMD" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabelJob" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Job" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabelID" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ID" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabelClass" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="Class" min="-2" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelAddress" min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Component id="jLabelAllergy" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="FirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Age" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelSex" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RadioMale" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RadioFemale" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" min="-2" pref="66" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabelAllergy" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Phone" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabelPhone" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelBranch" min="-2" max="-2" attributes="0"/>
+                          <Component id="Branch" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Level" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Ins" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Canc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelRegister" min="-2" max="-2" attributes="0"/>
+                          <Component id="Register" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="EMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelEMD" min="-2" max="-2" attributes="0"/>
+                          <Component id="EMD" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelJob" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Job" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelClass" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Class" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="24" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&#x4e8;&#x432;&#x447;&#x442;&#x4e9;&#x43d; &#x448;&#x438;&#x43d;&#x44d;&#x44d;&#x440; &#x431;&#x4af;&#x440;&#x442;&#x433;&#x44d;&#x445;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x432;&#x43e;&#x433;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelFirstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41d;&#x44d;&#x440;: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x441;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelSex">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x425;&#x4af;&#x439;&#x441;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPhone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x423;&#x442;&#x430;&#x441;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x42d;-&#x43c;&#x430;&#x439;&#x43b;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelRegister">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x420;&#x435;&#x433;&#x438;&#x441;&#x442;&#x440;&#x438;&#x439;&#x43d; &lt;br&gt; &#x434;&#x443;&#x433;&#x430;&#x430;&#x440;:&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x425;&#x430;&#x44f;&#x433;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAllergy">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x425;&#x430;&#x440;&#x448;&#x43b;&#x44b;&#x43d; &#x43c;&#x44d;&#x434;&#x44d;&#x44d;&#x43b;&#x44d;&#x43b;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelEMD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x42d;&#x41c;&#x414;&#x414;&lt;br&gt;&#x434;&#x443;&#x433;&#x430;&#x430;&#x440;:&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="LastName">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="LastNameKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="FirstName">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="FirstNameKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Age">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="AgeKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RadioMale">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x42d;&#x440;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadioMaleActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="RadioFemale">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x42d;&#x43c;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Phone">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PhoneActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="PhoneKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="EMail">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="EMailKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Register">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RegisterActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="RegisterKeyTyped"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="horizontalScrollBarPolicy" type="int" value="31"/>
+        <Property name="verticalScrollBarPolicy" type="int" value="21"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Address">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="AddressKeyTyped"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="EMD">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="EMDKeyTyped"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="Allergy">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="AllergyKeyTyped"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabelBranch">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x421;&#x430;&#x43b;&#x431;&#x430;&#x440;&lt;br&gt;&#x441;&#x443;&#x440;&#x433;&#x443;&#x443;&#x43b;&#x44c;:&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Branch">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="&#x425;&#x428;&#x423;&#x418;&#x421;"/>
+            <StringItem index="1" value="&#x428;&#x423;&#x421;"/>
+            <StringItem index="2" value="&#x411;&#x421;"/>
+            <StringItem index="3" value="&#x41e;&#x423;&#x425;&#x41d;&#x423;&#x421;"/>
+            <StringItem index="4" value="&#x425;&#x417;&#x421;"/>
+            <StringItem index="5" value="&#x410;&#x421;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BranchActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelJob">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x410;&#x436;&#x438;&#x43b;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Job">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="&#x411;&#x430;&#x433;&#x448;"/>
+            <StringItem index="1" value="&#x41e;&#x44e;&#x443;&#x442;&#x430;&#x43d;"/>
+            <StringItem index="2" value="&#x410;&#x436;&#x438;&#x43b;&#x442;&#x430;&#x43d;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x421;&#x438;&#x441;&#x438; ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ID">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="IDActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="IDKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelClass">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x410;&#x43d;&#x433;&#x438;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Class">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="ClassKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLevel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x422;&#x4af;&#x432;&#x448;&#x438;&#x43d;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Level">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="&#x411;&#x430;&#x43a;&#x430;&#x43b;&#x430;&#x432;&#x440;"/>
+            <StringItem index="1" value="&#x41c;&#x430;&#x433;&#x438;&#x441;&#x442;&#x440;"/>
+            <StringItem index="2" value="&#x414;&#x43e;&#x43a;&#x442;&#x43e;&#x440;"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Canc">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CancActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Ins">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Insert"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InsActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
